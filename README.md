@@ -1,7 +1,7 @@
 # column-and-constraint-generation-method
-This repo contains the implementation of the code for paper: [Solving two-stage robust optimization problems using a column-and-constraint generation method]([https://www.sciencedirect.com/science/article/abs/pii/S0167637713000618]) from Bo Zeng. You will get the same results as shown in the paper (toy example). 
+This repo contains the implementation of the code for paper: [Solving two-stage robust optimization problems using a column-and-constraint generation method](https://www.sciencedirect.com/science/article/abs/pii/S0167637713000618) from Bo Zeng. You will get the same results as shown in the paper (toy example). 
 
-We applied this method to consider multiple uncertainty sources (i.e., demand and node failures) in the edge service placement and resource allocation problem in [Resilient Edge Service Placement under Demand and Node Failure Uncertainties]([https://arxiv.org/abs/2310.00742](https://ieeexplore.ieee.org/abstract/document/10167783?casa_token=_vuz5dB52fQAAAAA:UIhkQsUAfWGxBFcX2zOnfwhgUbIXk1ZVncskwtH5hjPtYkNcc_qcBr1UD4Wv6SrVert4Thr6)):
+We applied this method to consider multiple uncertainty sources (i.e., demand and node failures) in the edge service placement and resource allocation problem in [Resilient Edge Service Placement under Demand and Node Failure Uncertainties](https://ieeexplore.ieee.org/abstract/document/10167783?casa_token=_vuz5dB52fQAAAAA:UIhkQsUAfWGxBFcX2zOnfwhgUbIXk1ZVncskwtH5hjPtYkNcc_qcBr1UD4Wv6SrVert4Thr6):
 
 ## Get started
 ### Prerequisites
@@ -23,7 +23,7 @@ Please refer to convergence analysis in the following figure:
 
 ## Citation and Acknowledgements
 **Bibtex.**
-If you find our code useful for your research, you can refer to our paper that considers multiple uncertainties in the problem [paper]([https://arxiv.org/abs/2310.00742](https://ieeexplore.ieee.org/abstract/document/10167783?casa_token=_vuz5dB52fQAAAAA:UIhkQsUAfWGxBFcX2zOnfwhgUbIXk1ZVncskwtH5hjPtYkNcc_qcBr1UD4Wv6SrVert4Thr6)):
+If you find our code useful for your research, you can refer to our paper that considers multiple uncertainties in the problem [paper](https://ieeexplore.ieee.org/abstract/document/10167783?casa_token=_vuz5dB52fQAAAAA:UIhkQsUAfWGxBFcX2zOnfwhgUbIXk1ZVncskwtH5hjPtYkNcc_qcBr1UD4Wv6SrVert4Thr6):
 ```bibtex
 @article{cheng2023resilient,
   title={Resilient edge service placement under demand and node failure uncertainties},
