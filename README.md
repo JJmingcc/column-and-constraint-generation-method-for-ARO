@@ -9,11 +9,11 @@ We applied this method to consider multiple uncertainty sources (i.e., demand an
 - Gurobi solver (Free license for academic students): [Gurobi solver](https://www.gurobi.com/academia/academic-program-and-licenses/)
 - Mosek solver (Free license for academic students):  [Mosek solver](https://www.mosek.com/)
 ### File
-- transportation.m (Main file): This file contains all parameter setting and flow of CCG algorithm. You will get the same results as shown in the paper (toy example).
-- D_max.m: create a temporal extreme points by maximizing the total demand. The resulting **d** must be within the feasible region of uncertainty set.
-- MP0.m: At iteration 1, we will input the d_opt from D_max.m. (For first iteration only)
-- MP2.m: Master problem that provides the lower bound to the robust solution based on the newly updated optimality cut (after iteration 1)
-- SP.m: Subproblem (use KKT conditions)
+- **transportation.m (Main file)**: This file contains all parameter setting and flow of CCG algorithm. You will get the same results as shown in the paper (toy example).
+- **D_max.m**: create a temporal extreme points by maximizing the total demand. The resulting **d** must be within the feasible region of uncertainty set.
+- **MP0.m**: At iteration 1, we will input the d_opt from D_max.m. (For first iteration only)
+- **MP2.m**: Master problem that provides the lower bound to the robust solution based on the newly updated optimality cut (after iteration 1)
+- **SP.m**: Subproblem (use KKT conditions)
 
   
 ### Results
